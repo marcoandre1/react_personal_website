@@ -1,12 +1,30 @@
 # Notice
 
-This website is ready for deployment using gh-pages in marcoandre1.github.io repository. Copy/paste folder content to personal website folder. Then push it to the repository, deleting all present files and run:
+This website is ready for deployment using gh-pages in marcoandre1.github.io repository. Follow the instructions below
+
+* Go to your local marcoandre1.github.io repository and make sure to have the latest remote version with
+```
+git pull
+```
+
+* Replace all files from local repository marcoandre1.github.io (except from .git folder) with all files present in this repository (react_personal_website).
+
+* Next you can push all local files on marcoandre1.github.io to remote repository.
+```
+git add .
+git commit -m "website updates"
+git push
+```
+
+* The following step uses gh-pages but is not optimized for user page on github. This will automatically remove all files present in master branch and replace them with the distribution files
 
 ```
 npm run deploy
 ```
 
-You will probably need to update the domain name in Settings has gh-pages removes is not optimized for user page. 
+* Finally, you will probably need to update the domain name in Settings as gh-pages removes the domain name from the settings.
+
+* You can add a README but be sure to pull before updating to avoid conflicts.
 
 # Reac auto generated README
 
