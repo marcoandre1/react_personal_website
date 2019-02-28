@@ -1,3 +1,15 @@
+# Notice
+
+This website is ready for deployment using gh-pages in marcoandre1.github.io repository. Copy/paste folder content to personal website folder. Then push it to the repository, deleting all present files and run:
+
+```
+npm run deploy
+```
+
+You will probably need to update the domain name in Settings has gh-pages removes is not optimized for user page. 
+
+# Reac auto generated README
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
